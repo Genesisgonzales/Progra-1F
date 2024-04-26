@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+      Scanner scanner = new Scanner(System.in);
+      System.out.print("Ingresa numero");
+      
+      Integer numero = scanner.nextInt();
+      
+      if(numero%2==0){
+          System.out.print("El numero es par");
+      }else{
+          System.out.print("El numero es impar");
+      }
+    }
+}

@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingresa un numero: ");
+        
+        Integer numero = scanner.nextInt(); 
+         
+        if (numero == 0){
+            System.out.print("El numero es 0");
+    }else{
+        System.out.print("El numero no es 0");
+    }
+    }
+}

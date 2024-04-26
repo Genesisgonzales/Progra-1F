@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+      Scanner scanner = new Scanner(System.in);
+      System.out.print("\nIngresa vocal");
+      
+      String vocal = scanner.nextLine();
+      
+      if(vocal.equals("a")){
+          System.out.print("Ay llevame Dios");
+      }else if(vocal.equals("e")){
+          System.out.print("El elote esta caro");
+      }else if(vocal.equals("i")){
+          System.out.print("Igual ni queria nada");
+      }else if(vocal.equals("o")){
+          System.out.print("Obvi");
+      }else if (vocal.equals("u")){
+          System.out.print("Ulugrun");
+      }
+    }
+}
